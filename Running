@@ -1,0 +1,50 @@
+Running the Program
+Overview
+This project runs on an Arduino-compatible microcontroller and controls music playback using a buzzer, push button, and LCD display. 
+Button presses cycle through different songs, which are shown on the LCD and played through the buzzer.
+
+------------------------------------------------------------------------------------------------
+
+Hardware Requirements:
+
+- Arduino-compatible microcontroller
+- 16×2 LCD display
+-Piezo buzzer
+-Push button
+-Jumper wires and breadboard
+
+Pin Connections:
+- Button: Digital pin 12 (INPUT_PULLUP)
+- Buzzer: Analog pin A5
+LCD:
+RS → Pin 2
+EN → Pin 3
+D4 → Pin 6
+D5 → Pin 7
+D6 → Pin 8
+D7 → Pin 9
+
+
+Software Requirements:
+- Arduino IDE
+- LiquidCrystal library
+- Custom header files (pitches.h, row.h, odeToJoy.h, Despacito.h) included in the project directory
+
+How to Run:
+
+1. Connect the hardware according to the pin mapping above.
+2. Open the project in the Arduino IDE.
+3. Verify that all required header files are in the same folder as the main .ino file.
+4. Select the correct board and port in the Arduino IDE.
+5. Upload the program to the microcontroller.
+
+
+Operation:
+
+- Power the board after uploading.
+- Press the button to cycle through available songs.
+- The LCD displays the current selection with scrolling text.
+- The buzzer plays the selected melody.
+
+
+
