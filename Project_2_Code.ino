@@ -127,20 +127,6 @@ if (button_pressed){
     lcd.clear();
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // update for next loop
 //prev_button_state = button_state;
 
